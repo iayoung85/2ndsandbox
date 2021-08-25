@@ -1,0 +1,13 @@
+import wagescalculator
+print("20 hours, rate $10.00 per hour, “non-exempt”")
+print("total wages $200")
+print(wagescalculator.wages(20,10.00, 'non-exempt'))
+print("20 hours, rate $10.00 per hour, “exempt”")
+print("total wages $200")
+print(wagescalculator.wages(20,10,'exempt'))
+print("44 hours, rate $10.00 per hour, “non-exempt”")
+print("total wages $460")
+print(wagescalculator.wages(44,10,'non-exempt'))
+print("44 hours, rate $10.00 per hour, “exempt”")
+print("total wages $440")
+print(wagescalculator.wages(44,10,'exempt'))

@@ -1,0 +1,25 @@
+import turtle
+import math
+size=int(input("size of star?"))
+wn=turtle.Screen()
+alex=turtle.Turtle()
+alex.color('black')
+alex.fillcolor('red')
+#alex.ht()
+#alex.pu()
+alex.right(126)
+center=int((size/2)/math.sin(math.radians(72)))
+alex.forward(center)
+alex.left(162)
+alex.begin_fill()
+for n in range(5):
+    alex.forward(size)
+    alex.left(144)
+alex.end_fill()
+alex.left(18)
+alex.forward(center)
+alex.right(54)
+alex.forward(100)
+
+#alex.ht()
+wn.exitonclick()
